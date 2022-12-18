@@ -54,7 +54,7 @@ public class CyclicLinkedList {
     }
 
     void is_empty(){
-        if(head == null){        //если список пуст -
+        if(head == null){ 
             System.out.println("Is empty");
         }
         else{
