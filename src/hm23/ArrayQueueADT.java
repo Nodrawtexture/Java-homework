@@ -40,7 +40,6 @@ public abstract class ArrayQueueADT<T> {
 
     T deleteElement() {
         T element;
-        // if queue is empty
         if (isEmpty()) {
             System.out.println("Queue is empty");
             return null;
