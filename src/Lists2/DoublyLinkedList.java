@@ -105,11 +105,7 @@ public class DoublyLinkedList {
                 minNode.prev.next = minNode.next;
             }
 
-            //minNode.displayNodeData();
-            //System.out.println("");
             add(minNode.data, pos);
-            //printLinkedList();
-            //System.out.println("");
             pos++;
         }
     }
